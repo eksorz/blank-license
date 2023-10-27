@@ -9,3 +9,20 @@ The new licensing system is a content that works with its own API key and the he
 **From GitHub:** Create a new repository, install a modules.json file in it, take the Raw link and paste it correctly into the arguments of the constructor function.
 
 **From Self-API:** Currently unavailable.
+
+## Functions in Classes
+
+*This system was prepared as Object-Oriented Programming in commit.*
+
+```lua
+ObjectClass = {}
+ObjectClass.__index = ObjectClass;
+
+--[[
+    Functions:
+        ObjectClass.new (constructor)
+        ObjectClass:implement (application)
+
+    Classes:
+        ObjectClass;
+]]
